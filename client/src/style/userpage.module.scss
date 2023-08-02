@@ -1,0 +1,62 @@
+.usersContainer {
+  max-width: 600px;
+  margin: 60px auto 0; /* Added 20px top margin */
+  padding: 20px;
+
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .usersList {
+    list-style: none;
+    padding: 0;
+
+    .userItem {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #f8f8f8;
+
+      .addButton {
+        background-color: #4e0f64;
+        color: #fff;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 5px;
+        font-size: 14px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #7f7fc2;
+        }
+      }
+    }
+  }
+}
+
+.searchContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.searchInput {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: box-shadow 0.3s ease;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 3px #7f7fc2;
+  }
+}

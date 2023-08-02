@@ -1,0 +1,70 @@
+
+.authForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #6f66c4, #24243e);
+  min-width: 350px;
+  border-radius: 5%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  margin: 20px;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #e0dede;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #573b8a;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s ease-in;
+}
+
+.button:hover {
+  background: #6d44b8;
+}
+
+.secondaryBtn {
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px; /* Добавим немного отступа между вторичной кнопкой и основной */
+  font-size: 0.8rem;
+  text-decoration: underline; /* Сделаем текст вторичной кнопки подчеркнутым */
+}
+
+.secondaryBtn:hover {
+  color: #bbb; /* При наведении цвет кнопки станет светлее */
+}
